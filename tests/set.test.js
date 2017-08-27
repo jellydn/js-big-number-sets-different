@@ -101,7 +101,7 @@ test("[4,5] + [3,6]", () => {
   );
 });
 
-test("[3,6] - [3,6]", () => {
+test("[3,6] + [3,6]", () => {
   expect(union(setBuilder(3, 6), setBuilder(3, 6))).toMatchObject(
     setBuilder(3, 6)
   );
@@ -123,5 +123,17 @@ test("[5,7] + [6,8]", () => {
 test("[1,2] + [2,2]", () => {
   expect(union(setBuilder(1, 2), setBuilder(2, 2))).toMatchObject(
     setBuilder(1, 2)
+  );
+});
+
+test("[2,2] + [1,4]", () => {
+  expect(union(setBuilder(2, 2), setBuilder(1, 4))).toMatchObject(
+    setBuilder(1, 4)
+  );
+});
+
+test("[1,4] + [2,2]", () => {
+  expect(union(setBuilder(1, 4), setBuilder(2, 2))).toMatchObject(
+    setBuilder(1, 4)
   );
 });
