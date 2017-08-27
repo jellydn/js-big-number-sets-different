@@ -29,8 +29,6 @@ export function different(set1, set2) {
     // right overlapse
     return setBuilder(toNumber2 + 1, toNumber);
   }
-
-  throw Error(`missing for case`, set1, set2);
 }
 
 /**
@@ -61,8 +59,6 @@ export function union(set1, set2) {
     // right overlapse
     return setBuilder(fromNumber2, Math.max(toNumber, toNumber2));
   }
-
-  throw Error(`missing for case`, set1, set2);
 }
 
 /**

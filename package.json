@@ -23,6 +23,7 @@
   "jest": {
     "verbose": true,
     "collectCoverage": true,
+    "collectCoverageFrom": ["src/**/*.{js,jsx}", "!**/node_modules/**"],
     "transform": {
       "^.+\\.jsx?$": "babel-jest"
     }
