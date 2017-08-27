@@ -1,6 +1,6 @@
 import { different, union, isSuperset, setBuilder } from "./set";
 /**
- * Result is firstArray thatr emove intersect with secondArray
+ * Result is firstArray that remove intersect with secondArray
  * @param array firstArray 
  * @param array secondArray 
  * @return array
