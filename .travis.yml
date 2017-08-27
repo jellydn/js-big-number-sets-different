@@ -3,3 +3,6 @@ node_js:
   - "6.0"
 env:
   CODECLIMATE_REPO_TOKEN: 92c3b08c8527bde41420881b99483ee66c514018d6da46fc9f3f58b31d11b274
+addons:
+  code_climate:
+    repo_token: CODECLIMATE_REPO_TOKEN
