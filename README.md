@@ -25,3 +25,9 @@ Result is first array that remove intersec from second parameter.
 This project is tested with [Jest](https://facebook.github.io/jest/).
 * Open terminal and enter `npm install` or `yarn install`
 * `npm run test` or `yarn test` for running test
+
+[![Travis build status](http://img.shields.io/travis/jellydn/js-big-number-sets-different.svg?style=flat)](https://travis-ci.org/jellydn/js-big-number-sets-different)
+[![Code Climate](https://codeclimate.com/github/jellydn/js-big-number-sets-different/badges/gpa.svg)](https://codeclimate.com/github/jellydn/js-big-number-sets-different)
+[![Test Coverage](https://codeclimate.com/github/jellydn/js-big-number-sets-different/badges/coverage.svg)](https://codeclimate.com/github/jellydn/js-big-number-sets-different)
+[![Dependency Status](https://david-dm.org/jellydn/js-big-number-sets-different.svg)](https://david-dm.org/jellydn/js-big-number-sets-different)
+[![devDependency Status](https://david-dm.org/jellydn/js-big-number-sets-different/dev-status.svg)](https://david-dm.org/jellydn/js-big-number-sets-different#info=devDependencies)
