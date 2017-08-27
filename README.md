@@ -1,6 +1,7 @@
 # js-big-number-sets-different
 Find the different between 2 sets of number. Example input as below:
-```input set: [1­-5],[2­-20]
+```
+input set: [1­-5],[2­-20]
 input negative set: [3­-7]
 output: [1­-2],[8­-20] 
 ­­­­­­­­­­­­­­­­­­­­­­­­­­­­­­­­­­­­­­­­­­­­­­­­­­­­­­­­­­­­­­­­­­­­­­ 
