@@ -1,0 +1,28 @@
+{
+  "name": "js-big-number-sets-different",
+  "version": "0.0.2",
+  "description": "Find the different between 2 sets of number",
+  "main": "src/index.js",
+  "scripts": {
+    "dev": "webpack --config webpack.config.js && node build/bundle.js",
+    "start": "node build/bundle.js",
+    "build": "webpack --config webpack.config.js",
+    "test": "jest"
+  },
+  "author": "Dung Huynh (dunghd.it@gmail.com)",
+  "license": "ISC",
+  "devDependencies": {
+    "babel-cli": "^6.26.0",
+    "babel-core": "^6.26.0",
+    "babel-jest": "^20.0.3",
+    "babel-loader": "^7.1.2",
+    "babel-preset-env": "^1.6.0",
+    "jest": "^20.0.4",
+    "webpack": "^3.5.5"
+  },
+  "jest": {
+    "transform": {
+      "^.+\\.jsx?$": "babel-jest"
+    }
+  }
+}
